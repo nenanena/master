@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="/benchmark/js/jquery.min.js"></script>
+<script type="text/javascript" src="/benchmark/js/js.cookie.js"></script>
+<title>BenchmarkTest02750</title>
+</head>
+<body>
+<form action="/benchmark/xss-05/BenchmarkTest02750"  method="POST" id="FormBenchmarkTest02750">
+	<b>Current URL:</b> <span id="contentholder"></span>
+	<script>
+		document.getElementById("contentholder").textContent = document.location.href;    
+	</script>
+</form>
+<div id="ajax-form-msg1"><pre><code class="prettyprint" id="code"></code></pre></div>
+</body>
+</html>
